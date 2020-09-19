@@ -16,9 +16,6 @@ func ReverseString(word string) (ans string, ansLen int) {
 
 func main() {
 	var ans, ansLen = ReverseString("abcdefghijklmnopqrstuvwxyz")
-	fmt.Println(
-		ReverseString("abcdefghijklmnopqrstuvwxyz"),
-	)
 	fmt.Printf("Reverse string is: %s\n", ans)
 	fmt.Printf("String length is: %d\n", ansLen)
 }
